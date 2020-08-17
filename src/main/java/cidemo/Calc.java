@@ -15,7 +15,7 @@ public class Calc
     
     static int subtract(int number_one, int number_two)
     {
-	int output = number_one + number_two;
+	int output = number_one - number_two;
 	return output;
     }
 }
