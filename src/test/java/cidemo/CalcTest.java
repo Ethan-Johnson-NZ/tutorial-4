@@ -14,4 +14,9 @@ public class CalcTest
     {
         assertTrue( Calc.add(5, 2) == 7 );
     }
+    
+    public void testCalcSubtract()
+    {
+        assertTrue( Calc.subtract(5, 2) == 3 );
+    }
 }
