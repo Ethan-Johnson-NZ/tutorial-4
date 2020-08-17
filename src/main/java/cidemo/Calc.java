@@ -13,8 +13,9 @@ public class Calc
 	return output;
     }
     
-    int subtract(int number_one, int number_two)
+    static int subtract(int number_one, int number_two)
     {
-	return number_one + number_two;
+	int output = number_one + number_two;
+	return output;
     }
 }
